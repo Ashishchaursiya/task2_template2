@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@700&family=Indie+Flower&family=Lobster&family=Pacifico&family=Playfair+Display:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+  html,body{
+     height: 100%;
+    width: 100%;
+    
+ }
+#home{
+    background: url(img/home.jpg) no-repeat center center fixed;
+    height: 100%;
+    width: 100%;
+     background-size: cover;
+      
+}
+ 
+.navbar{
+     
+}
+ 
+.navbar-nav li a{
+   color:#96bb7c !important;
+  
+   margin-right:20px;
+   font-size:26px;
+   text-transform: uppercase;
+ font-family: 'Montserrat', sans-serif;
+ 
+
+}
+.navbar-nav li a:hover{
+   color:#8fcfd1 !important;
+
+
+}
+.custom-toggler .navbar-toggler-icon { 
+			background-image: url( 
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(150, 187, 124, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+width:40px;
+height:40px;
+} 
+
+
+ #home .h-cont{
+color:#96bb7c !important;
+padding:30px;
+ 
+}
+.h-cont h3{
+ font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+}
+.h-cont h4{
+
+  font-size: 65px !important;
+    font-weight: 700 !important;
+ 
+   
+  }
+
+.h-cont span{
+
+  font-size: 33px !important;
+    font-weight: 700 !important;
+   letter-spacing:2px;
+ font-family: 'Grenze Gotisch', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Playfair Display', serif;
+  }
+.h-cont button{
+ font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+color:#96bb7c !important;
+background-color:rgba(150, 187, 124, 0.3);
+ 
+}
+#h-mg{
+width:100%;
+height:100%;
+margin-right:0px !important;
+padding-right:0px !important;
+}
+#cook{
+ background-color: #212121;
+}
+#cook h3{
+font-family: 'Lobster', cursive;
+color:#B0C67B;
+}
+#cook p{
+color:#FAFDF6; 
+margin-top: 20px;
+ font-family: 'Montserrat', sans-serif;
+ 
+}
+#feature{
+background-color:rgba(69, 73, 59, 1);
+color:white;
+}
+#feature h4{
+ font-family: 'Lobster', cursive;
+}
+#feature p{
+ font-family: 'Montserrat', sans-serif;
+}
+#offer{
+background-color: #212121
+}
+
+#offer .of-sec{
+background-color:rgba(69, 73, 59, 1);
+}
+#offer h6{
+ font-family: 'Lobster', cursive;
+color:#B0C67B;
+font-size:40px;
+
+}
+#offer h1{
+ font-family: 'Montserrat', sans-serif;
+color:white;
+font-size:44px;
+
+}
+#offer h3{
+ font-family: 'Lobster', cursive;
+color:#B0C67B;
+font-size:25px;
+}
+#offer p{
+ font-family: 'Montserrat', sans-serif;
+color:white;
+font-size:15px;
+}
+#offer i{
+ font-family: 'Lobster', cursive;
+color:white;
+font-size:15px;
+}
+#simple{
+background-color:rgba(69, 73, 59, 1);
+}
+#simple h1{ 
+font-size:30px;
+font-weight:400;
+ color:#B0C67B;
+font-family: 'Lobster', cursive;
+}
+#simple p{ 
+font-size:18px;
+  font-family: 'Montserrat', sans-serif;
+ color:white;
+
+}
+#plate{
+    background: url(img/back2.jpg) no-repeat center center;
+    width: 100%;
+height:40%;
+     background-size: contain;
+      
+}
+#big-plt{
+    background: url(img/hero-section.jpg) no-repeat center;
+    width: 100%;
+height:100%;
+     background-size: cover;
+      
+}
+ 
+#book{
+color:white;
+text-transform: capitalize;
+background-color: #212121;
+}
+#book h1{ 
+ 
+font-family: 'Lobster', cursive;
+}
+#book input{
+    
+    margin-top:0px;
+  border-radius:5px solid white !important;
+ 
+}
+#book label{
+    font-weight: 700;
+    margin-left:-70px;
+    margin-bottom:0px;
+
+}
+#book input:focus{
+    outline: none;
+}
+#book button{
+   font-weight: 700;
+  color:white;
+outline: 2px solid white;
+border-radius:2px solid white;
+background-color: #212121;
+}
+#big2-plt{
+    background: url(img/back.jpg) no-repeat center;
+    width: 100%;
+height:100%;
+     background-size: cover;
+      
+}
+#new-menu{
+background-color:rgba(69, 73, 59, 1);
+
+}
+#new-menu h2{
+font-family: 'Lobster', cursive;
+color:#B0C67B;
+font-size:45px;
+}
+
+#new-menu h1{
+   font-family: 'Montserrat', sans-serif;
+color:white;
+font-size:45px;
+}
+#new-menu .card{
+ border:none;
+outline:none;
+}
+.card-body{
+color:rgba(0,0,0,0.9);
+}
+.card-body span{
+font-weight:600;
+font-size:15px;
+color:rgba(0,0,0,0.7);
+padding:10px 0;
+}
+.card-body p{
+font-weight:600;
+font-size:16px;
+color:rgba(0,0,0,0.6);
+ font-family: 'Montserrat', sans-serif;
+padding:5px 0px;
+}
+.card-body a{
+font-weight:600;
+color:rgba(0,0,0,0.7);
+ font-family: 'Montserrat', sans-serif;
+border-radius:3px solid black;
+text-decoration: underline;
+text-decoration-color:#B0C67B;
+ 
+
+}
+#social{
+background-color: #212121;
+}
+#social p{
+color:#B0C67B;
+font-family: 'Montserrat', sans-serif;
+
+}
+#h-cont h1{
+    font-size: 80px !important;
+    font-weight: 700 !important;
+    color:#388c8f;
+    font-family: 'Rowdies', cursive;
+}
+#h-cont p{
+     
+    color:#388c8f;
+    font-size: 21px;
+    font-family: 'Montserrat', sans-serif;
+    
+
+}
+#h-cont .btn{
+    color:white;
+    background-color:#388c8f;
+    font-size: 21px;
+
+}
+.fa {
+  padding: 20px;
+  font-size: 30px !important;
+  width: 50px;
+height:50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 5px;
+  border-radius: 50%;
+background-color:white;
+line-height:10px !important;
+}
+
+.fa:hover {
+    opacity: 0.7;
+color:black;
+ text-decoration: none;
+}
+
+.fa-facebook {
+  color: rgba(0,0,0,0.9);
+}
+.fa-twitter{
+ color: rgba(0,0,0,0.9);
+padding-left:10px ! important;
+}
+.fa-instagram {
+ color: rgba(0,0,0,0.9);
+padding-left:12px ! important;
+}
+.fa-pinterest{
+ color: rgba(0,0,0,0.9);
+padding-left:10px ! important;
+}
+.fa-google{
+ color: rgba(0,0,0,0.9);
+padding-left:10px ! important;
+}
+#footer{
+background-color:rgba(69, 73, 59, 1);
+color:white;
+}
+   
+.f-cont{
+    text-transform: capitalize;
+    padding-left: 30px !important;
+    
+}
+.f-cont h5{
+    
+    font-family: 'Rowdies', cursive;
+}
+.f-cont p{
+   text-transform:capitalize;
+    font-family: 'Montserrat', sans-serif;
+}
+@media (max-width:768px)
+{
+   
+ #simple p{
+text-align:left;
+}
+ 
+}
+
+ 
